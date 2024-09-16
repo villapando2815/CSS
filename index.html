@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <title>Login Page, Code by SolarDev</title>
+  </head>
+
+  <body>
+    <div class="app">
+      <div class="form-wrap sign-in">
+        <form>
+          <h1>Sign In</h1>
+          <div class="icons">
+            <a href="/">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="/">
+              <i class="fa-brands fa-google-plus-g"></i>
+            </a>
+            <a href="/">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="/">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+
+          <input type="email" placeholder="Email address or phone number" />
+          <input type="password" placeholder="Password" />
+          <button>Log in</button>
+        </form>
+      </div>
+
+      <div class="form-wrap sign-up">
+        <form>
+          <h1>Create new account</h1>
+          <div class="icons">
+            <a href="/">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="/">
+              <i class="fa-brands fa-google-plus-g"></i>
+            </a>
+            <a href="/">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="/">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <button>Sign Up</button>
+        </form>
+      </div>
+
+      <div class="toggle-wrap">
+        <div class="toggle">
+          <div class="toggle-panel toggle-login">
+            <button class="hidden" id="login">Login account</button>
+          </div>
+          <div class="toggle-panel toggle-register">
+            <button class="hidden" id="register">Create account</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
